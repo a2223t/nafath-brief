@@ -20,10 +20,19 @@ iOS App Transport Security (ATS) enforces secure connections between application
 Resource:  Apple. (n.d.). Preventing Insecure Network Connections. Apple Developer Documentation. https://developer.apple.com/documentation/security/preventing-insecure-network-connections
 
 ## Networking
+IPv4 uses 32-bit addresses, providing approximately 4.3 billion unique addresses, while IPv6 uses 128-bit addresses, offering a vastly larger address space. As connected devices increase, IPv6 allows more devices to obtain unique addresses and reduces address shortages. In the government assistant project, IPv6 supports scalability by enabling more smartphones, servers, and connected systems to communicate efficiently, helping maintain reliable connectivity as demand for digital government services grows.
+
+Resource:  Internet Engineering Task Force. (2017). *Internet Protocol, Version 6 (IPv6) Specification (RFC 8200).* RFC Editor. https://www.rfc-editor.org/rfc/rfc8200
 
 ## Cybersecurity
+Prompt injection is an attack that manipulates an AI system into ignoring its instructions or performing unintended actions. Direct prompt injection occurs when a user enters malicious instructions directly. Indirect prompt injection occurs when harmful instructions are hidden in external content, such as websites or documents. Two ways to reduce risk are separating trusted instructions from untrusted input and validating AI outputs before taking actions. These measures help protect the government assistant from misuse and unauthorized access.
+
+Resource: OWASP Foundation. (n.d.). *LLM01: Prompt Injection*. OWASP Gen AI Security Project. https://genai.owasp.org/llmrisk2023-24/llm01-24-prompt-injection/
 
 ## Data
+Anonymization permanently removes identifying information from chat logs so individuals cannot be identified, even indirectly. Pseudonymization replaces personal identifiers with artificial labels, while the original identities can still be recovered using additional information. For the government assistant, anonymization helps protect citizens’ privacy when analyzing conversations. Under the GDPR, properly anonymized data falls outside data protection law, whereas pseudonymized data remains personal data and must still be protected.
+
+Resource:  European Parliament and Council of the European Union. (2016). *Regulation (EU) 2016/679 (General Data Protection Regulation), Recitals 26 and Article 4(5).* Official Journal of the European Union. https://eur-lex.europa.eu/eli/reg/2016/679/oj
 
 ## Misconception in My Track
 
