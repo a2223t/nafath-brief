@@ -35,5 +35,10 @@ Anonymization permanently removes identifying information from chat logs so indi
 Resource:  European Parliament and Council of the European Union. (2016). *Regulation (EU) 2016/679 (General Data Protection Regulation), Recitals 26 and Article 4(5).* Official Journal of the European Union. https://eur-lex.europa.eu/eli/reg/2016/679/oj
 
 ## Misconception in My Track
+A common misconception in Software Engineering is that adding new features to an API always requires a MAJOR version increase. The correct version is that backward-compatible additions, such as optional fields, usually require a MINOR version increase under Semantic Versioning. A MAJOR version increase is necessary when changes break backward compatibility, such as removing an existing endpoint. PATCH increases are used for backward-compatible bug fixes. This distinction helps developers update government assistant services without disrupting existing mobile applications. The supporting resource section is “Semantic Versioning 2.0.0,” specifically the headings “Summary” and “MAJOR, MINOR, and PATCH.”
+
+Resource:  Preston-Werner, T. (n.d.). *Semantic Versioning 2.0.0*. https://semver.org/
 
 ## Open Question
+I would investigate how to test a government AI assistant against direct and indirect prompt injection attacks. I would learn which security tools can detect malicious instructions in user messages and external documents, and how to evaluate whether these protections effectively prevent unauthorized access to sensitive citizen information.
+
